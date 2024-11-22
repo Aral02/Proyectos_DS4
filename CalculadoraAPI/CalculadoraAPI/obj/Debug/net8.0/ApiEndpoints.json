@@ -1,0 +1,59 @@
+[
+  {
+    "ContainingType": "CalculadoraAPI.Controllers.HistorialOperacionesController",
+    "Method": "AgregarOperacion",
+    "RelativePath": "api/HistorialOperaciones/agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "operacion",
+        "Type": "CalculadoraAPI.Models.HistorialOperacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculadoraAPI.Controllers.HistorialOperacionesController",
+    "Method": "GetSumas",
+    "RelativePath": "api/HistorialOperaciones/sumas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculadoraAPI.Controllers.HistorialOperacionesController",
+    "Method": "GetTodos",
+    "RelativePath": "api/HistorialOperaciones/todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CalculadoraAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CalculadoraAPI.WeatherForecast, CalculadoraAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
